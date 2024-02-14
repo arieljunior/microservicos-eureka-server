@@ -1,0 +1,2 @@
+INSERT INTO "user" (name, username, email, password, role, company_id) VALUES ('Ariel Junior Vendedor', 'arielv', 'ariel.junior@al.infnet.edu.br', '123', 1, 1);
+INSERT INTO "user" (name, username, email, password, role, company_id) VALUES ('Ariel Junior Cliente', 'arielc', 'arieljuniorc@outlook.com', '123', 1, NULL)

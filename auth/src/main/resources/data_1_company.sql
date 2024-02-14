@@ -1,0 +1,1 @@
+INSERT INTO company(name) VALUES ('Empresa 1')

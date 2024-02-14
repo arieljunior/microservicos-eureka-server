@@ -8,6 +8,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "company")
 @Getter
@@ -21,4 +24,7 @@ public class Company {
     private Long id;
 
     private String name;
+
+    @OneToMany(mappedBy = "company", cascade = CascadeType.ALL)
+    private Set<User> users = new HashSet<>();
 }
